@@ -1,0 +1,43 @@
+#icon{
+    margin-right: 50px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+#mrp{
+    color: gray;
+    text-decoration: line-through;
+}
+#cart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+#form{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    margin-right: 50px;
+    background-color: rgb(235, 243, 243);
+    width: 30%;
+    input{
+
+        border-radius: 10px;
+        border: none;
+        padding: 5px;
+    }
+}
+
+#netamount{
+    text-align: center;
+}
+
+#checkout{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+}
